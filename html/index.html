@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <img src="../imagens/imagem.jpg" alt="Minha Foto" class="mini-foto">
+        <h1>Cauã Casali</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sobre Mim -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Meu nome é Cauã Casali , e sou um programador iniciante, apaixonado por tecnologia e aprendizado constante. Recentemente, comecei minha jornada no mundo da 
+            programação, focando no desenvolvimento web e na criação de soluções dinâmicas e funcionais. Já tenho conhecimento em HTML, CSS, JavaScript e Python, o que me 
+            permite construir páginas web interativas e também resolver problemas usando lógica de programação.</p>
+            
+            
+        <p>Meu objetivo é evoluir cada vez mais como desenvolvedor, adquirindo novas habilidades e explorando áreas como desenvolvimento 
+            full-stack e automação. Acredito que a tecnologia pode mudar o mundo, e estou empolgado para fazer parte dessa mudança enquanto aprimoro minhas 
+            habilidades e contribuo com projetos inovadores!</p>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projeto">
+            <h3>Site sobre queimadas no Brasil</h3>
+            <p>Um site informativo e interativo sobre queimadas no Brasil, com mapas de focos de incêndio em tempo real, 
+                dados sobre causas e impactos, dicas de prevenção e atualizações ambientais. Uma ferramenta para conscientização e 
+                proteção ambiental.</p>
+            <a href="https://github.com/CauaCasali/Queimadas-no-Brasil" target="_blank">Ver no GitHub</a>    
+        </div>
+        <div class="projeto">
+            <h3>Site do músico Kant</h3>
+            <p>Um site dedicado ao músico Kant, apresentando sua biografia, discografia, videoclipes, agenda de shows e as últimas notícias
+            . O projeto visa conectar os fãs com o trabalho de Kant e proporcionar uma experiência interativa com conteúdos exclusivos. </p>
+            <a href="https://github.com/CauaCasali/site-musico" target="_blank">Ver no GitHub</a>
+
+        </div>
+    </section>
+
+    <!--Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="formContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensagemSucesso" class="oculto">Mensagem enviada com sucesso!</p>
+    </section>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
